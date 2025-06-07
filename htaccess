@@ -1,5 +1,5 @@
-ErrorDocument 403 /404.html
-ErrorDocument 404 /404.html
+ErrorDocument 403 /page70415221.html
+ErrorDocument 404 /page70415221.html
 
 DirectoryIndex page69796573.html
 
@@ -8,4 +8,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
 RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^notfound$ page70415221.html [NC]
+RewriteRule ^notfound/$ page70415221.html [NC]
+
 

@@ -1,4 +1,6 @@
 User-Agent: *
+Disallow: /page70415221.html
+Disallow: /notfound
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
 Disallow: /tilda/click*
@@ -10,4 +12,4 @@ Disallow: /tilda/event*
 Disallow:
 
 
-Sitemap: http://in-visivle.tilda.ws/sitemap.xml
+Sitemap: http://in-visible.tilda.ws/sitemap.xml
